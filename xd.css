@@ -1,0 +1,73 @@
+@font-face {
+  font-family:titulin;
+  src: url(Retroking.ttf);
+}
+.fondo{
+background-color: #FFFCF8 ;
+}
+.icono{
+	height: 20%;
+	width: 5rem;
+	
+}
+.achicar{
+	display: block;
+	
+	
+}
+.si{
+	display: flex;
+	flex: end;
+	
+}
+
+.empresa{
+
+	display: flex;
+	flex: center;
+}
+
+.formulario{
+	background-color:#CFFCA5 ;
+}
+.informacion{
+    
+    background-color:#fcfcd7 ;
+}
+.redimencion{
+	height:20rem;
+	width:30rem;
+
+}
+.icono:hover {
+    animation:rotar 2s;
+    
+}
+@keyframes rotar{
+    from{
+        transform: rotate(0deg);
+        
+    }
+    to{
+        transform: rotate(360deg);
+        
+    }
+    
+}
+.titulo{
+text-align:center;
+font-family: titulin;
+}
+.carro{
+display: flex;
+    justify-content: center;
+}
+h2{
+    text-align:center;
+    
+}
+h1{
+    
+    text-align:center;
+    
+}
